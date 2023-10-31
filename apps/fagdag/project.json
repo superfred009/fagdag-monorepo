@@ -15,13 +15,13 @@
       ],
       "defaultConfiguration": "qa",
       "options": {
-        "outputPath": "dist/apps/adams-matkasse"
+        "outputPath": "dist/apps/fagdag"
       },
       "configurations": {
         "production": {},
         "qa": {},
         "development": {
-          "outputPath": "apps/adams-matkasse"
+          "outputPath": "apps/fagdag"
         }
       }
     },
