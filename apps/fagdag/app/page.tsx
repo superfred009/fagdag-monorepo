@@ -19,19 +19,19 @@ export default async function Index() {
         >
           {process.env.WHAT_ENVIRONMENT_AM_I}
         </span>
-        <div
-          style={{
-            marginTop: '50px',
-            backgroundColor: 'yellow',
-            borderRadius: '5px',
-            padding: '10px',
-          }}
-        >
-          <p>
-            Welcome to this awesome page made on{' '}
-            <span style={{ color: 'red' }}>FAGDAG</span>
-          </p>
-        </div>
+      </div>
+      <div
+        style={{
+          marginTop: '50px',
+          backgroundColor: 'yellow',
+          borderRadius: '5px',
+          padding: '10px',
+        }}
+      >
+        <p>
+          Welcome to this awesome page made on{' '}
+          <span style={{ color: 'red' }}>FAGDAG</span>
+        </p>
       </div>
     </div>
   );
