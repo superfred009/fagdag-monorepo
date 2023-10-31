@@ -15,6 +15,7 @@ export default async function Index() {
               <span> Hello there, </span>
               Welcome fagdag 👋
             </h1>
+            <p>This is a test site for personal learning</p>
           </div>
 
           <div id="hero" className="rounded">
