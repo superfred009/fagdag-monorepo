@@ -7,15 +7,22 @@
     "build": {
       "executor": "@nx/next:build",
       "outputs": ["{options.outputPath}"],
-      "defaultConfiguration": "production",
+      "dependsOn": [
+        {
+          "target": "build",
+          "dependencies": true
+        }
+      ],
+      "defaultConfiguration": "qa",
       "options": {
-        "outputPath": "dist/apps/fagdag"
+        "outputPath": "dist/apps/adams-matkasse"
       },
       "configurations": {
+        "production": {},
+        "qa": {},
         "development": {
-          "outputPath": "apps/fagdag"
-        },
-        "production": {}
+          "outputPath": "apps/adams-matkasse"
+        }
       }
     },
     "serve": {
