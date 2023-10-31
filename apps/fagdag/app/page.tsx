@@ -1,8 +1,10 @@
 export default async function Index() {
   return (
     <div>
-      <h1>Welcome to Fagdag! 👋</h1>
-      <div style={{ display: 'flex', marginTop: '10px' }}>
+      <h1 style={{ color: 'darkblue', fontSize: '100px' }}>
+        Welcome to Fagdag! 👋
+      </h1>
+      <div style={{ display: 'flex', marginTop: '10px', fontSize: '50px' }}>
         <span>Current environment: </span>
         <span
           className="environment"
