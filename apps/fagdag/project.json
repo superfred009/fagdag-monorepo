@@ -29,7 +29,7 @@
       "executor": "@nx/next:server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "fagdag:build",
+        "buildTarget": "fagdag:build:qa",
         "dev": true
       },
       "configurations": {
